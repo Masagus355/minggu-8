@@ -1,0 +1,52 @@
+*{
+    box-sizing:border-box;
+}
+
+header{
+    padding: 30px;
+    background-color: seagreen;
+    border: 5px solid burlywood;
+    text-align:center;
+}
+
+nav{
+    float: left;
+    width: 20%;
+    text-align: center;
+    background-color: darkmagenta;
+    border: 5px solid burlywood
+    ;
+}
+
+nav ul{
+    list-style: none;
+    text-align: center;
+    background-color: seagreen;
+    border:1px solid burlywood;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a{
+    display: block;
+    color:seagreen;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+article{
+    list-style: none;
+    text-align: left;
+    background-color: seagreen;
+    border: 5px solid burlywood;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+/Change color the link color on hover/
+nav ul li a:hover {
+    background-color: springgreen;
+    color: teal;
+}
